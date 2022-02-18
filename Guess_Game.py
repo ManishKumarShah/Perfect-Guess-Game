@@ -4,7 +4,7 @@ randomNumber = random.randint(1,100)
 userGuess = None
 guesses = 0
 while(userGuess != random):
-    userGuess = int(input("Enter Your guess :"))
+    userGuess = int(input("Enter Your guess in number only :"))
     guesses +=1
     if(userGuess == randomNumber):
         print("\n      Right Guess!! \n *****CONGRATS YOU WIN*****")
